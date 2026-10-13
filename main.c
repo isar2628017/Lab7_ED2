@@ -141,8 +141,7 @@ int main(void)
           HAL_GPIO_WritePin(GPIOB,LED_POT2_Pin, GPIO_PIN_SET);
       }
       else	{
-          HAL_GPIO_WritePin(GPIOB,LED_POT2_Pin,GPIO_PIN_RESET
-          );
+          HAL_GPIO_WritePin(GPIOB,LED_POT2_Pin,GPIO_PIN_RESET);
       }
 
       /* Oxígeno */
@@ -150,8 +149,7 @@ int main(void)
           HAL_GPIO_WritePin(GPIOB,LED_POT3_Pin,GPIO_PIN_SET);
       }
       else{
-          HAL_GPIO_WritePin(GPIOB,LED_POT3_Pin, GPIO_PIN_RESET
-          );
+          HAL_GPIO_WritePin(GPIOB,LED_POT3_Pin, GPIO_PIN_RESET);
       }
 
       /* Transmitir*/
